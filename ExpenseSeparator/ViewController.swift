@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
@@ -20,6 +22,15 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  @IBOutlet weak var numAttendence: UITextField!
 
+  //@IBAction func clickNext_Page1(_ sender: AnyObject) {
+  //}
+  
+  //override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  //  let DestViewController: PageTwoViewController = segue.destination as! PageTwoViewController
+    
+  //  DestViewController.numAttendence = Int(self.numAttendence.text!)
+  //}
 }
 
